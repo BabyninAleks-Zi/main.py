@@ -10,4 +10,3 @@ print("15 -", (translit(num2words(15), "ru")))
 print("3 -", (translit(num2words(3), "ru")))
 print("40 -", (translit(num2words(40), "ru")))
 print("8 -", (translit(num2words(8), "ru")))
-
