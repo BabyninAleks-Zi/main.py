@@ -1,4 +1,4 @@
-from transliterate import translit, get_available_language_codes
+from transliterate import translit
 from num2words import num2words
 
 print(translit("Ladies and gentlemen, I'm 78 years old and I finally got 15 minutes of fame once in a lifetime and I guess that this is mine. \
@@ -9,4 +9,5 @@ print("78 -", (translit(num2words(78), "ru")))
 print("15 -", (translit(num2words(15), "ru")))
 print("3 -", (translit(num2words(3), "ru")))
 print("40 -", (translit(num2words(40), "ru")))
+
 print("8 -", (translit(num2words(8), "ru")))
